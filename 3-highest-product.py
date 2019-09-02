@@ -55,6 +55,7 @@ def highest_product_2(arr):
 # Analysis:
 # Runtime: O(n)
 # Space: Constant (just making a new list of three and a lowest max variable)
+# cannot solve a list with negative numbers
 
 
 # Solution 3: Gotchas! 

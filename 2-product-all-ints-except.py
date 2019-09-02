@@ -1,5 +1,6 @@
 """
-You have a list of integers, and for each index you want to find the product of every integer except the integer at that index.
+You have a list of integers,
+and for each index you want to find the product of every integer except the integer at that index.
 Write a function get_products_of_all_ints_except_at_index() that takes a list of integers and returns a list of the products.
 
 For example, given:
@@ -120,7 +121,8 @@ def get_products_3(arr):
 
 # Solution 4: Edge cases
 # 1) Only one number? This won't. Work. Can raise an exception. 
-# 2) Any zeros? Well, the only numer that wouldn't be zero would be that index.
+# 2) Any zeros? Well, the only number that wouldn't be zero would be that index.
+    # (有零吗？ 那么，唯一不会为零的数字就是该下标。)
 # It will still work fine with zeros.  
 def get_products_4(arr):
     """Returns new list with products of all other integers
@@ -134,7 +136,7 @@ def get_products_4(arr):
     """
     # Edge case of list containing only one int
     if len(arr) < 2:
-        raise Exception("Can't multiply without other numers!")
+        raise Exception("Can't multiply without other numbers!")
 
     # make a list to store products and be the eventual output
     products = []

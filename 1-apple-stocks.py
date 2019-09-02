@@ -41,6 +41,7 @@ def get_max_profit_1(prices):
 
 # Solution 2: Greedy algorithm. Profit will only be greater if buy_price is 
 # lower than one already used
+
 def get_max_profit_2(prices):
     """Returns the maximum profit
 

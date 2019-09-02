@@ -1,7 +1,7 @@
 """
 Meetings are stored as tuples (start, end).
 Write a function condense_meeting_times() that takes a list of meeting time 
-ranges and returns a list of condensed ranges.
+ranges and returns a list of condensed ranges.(condensed: 扼要的)
 
 For example, given:
 
